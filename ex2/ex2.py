@@ -34,7 +34,7 @@ spanish_dep_rel = {
                     # "nummod",
                     # "obl",
                     # "parataxis",
-                    "p":"punct",
+                    "p":"punct"
                     # "xcomp"
                     }
 
