@@ -231,8 +231,9 @@ def build_dataset(directory):
             if filename.replace(".story", "") in story_name_list:
                 file = os.path.join(directory_stories, filename)
                 with open(file, "r", encoding="utf-8") as f:
-                    story = f.read()
-                stories_tokenized.append(story)
+                    whole_text = f.read()
+                    story = whole_text.replace("\n", " ")
+                    stories_tokenized.append(story)
 
         # Save all of the summaries and generate model summaries based on iterator on list of stories
         i = 0
