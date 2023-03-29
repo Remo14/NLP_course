@@ -5,12 +5,14 @@ which generates two .tsv files in the folder results
 corresponding to the summarisation of two different datasets:
 
 a. Daily Mail Stories Tokenized
+
 b. Aligned Summarization Data
 
 with their respective Rouge2 and RougeL scores
 using two different summarization models:
 
 a. LEAD-2
+
 b. TF-IDF
 
 The results are compared qualitatively
