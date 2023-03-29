@@ -1,4 +1,4 @@
-### NLP FINAL ASSIGNMENT - Laura de Grazia, Remo Garcia Pellicer and Maryia Kirdun ###
+### NLP FINAL ASSIGNMENT - Remo Garcia Pellicer, Laura de Grazia and Maryia Kirdun ###
 
 To run the code in this folder, run ex3.py
 which generates two .tsv files in the folder results
