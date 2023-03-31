@@ -3,7 +3,6 @@ import os
 import pandas
 import nltk
 import math
-import re
 from nltk.stem import PorterStemmer
 from nltk import word_tokenize
 from rouge_score import rouge_scorer
